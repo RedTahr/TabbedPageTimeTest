@@ -10,7 +10,7 @@ namespace BlankApp1.ViewModels
 	{
         public MenuPageViewModel()
         {
-			System.Diagnostics.Debug.Write("MenuPageViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("MenuPageViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
 
 		}
 	}

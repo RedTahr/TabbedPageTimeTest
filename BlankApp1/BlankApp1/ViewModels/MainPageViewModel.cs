@@ -20,7 +20,8 @@ namespace BlankApp1.ViewModels {
 		}
 
 		private async void GotoTabbedPage() {
-			System.Diagnostics.Debug.Write("GotoTabbedPage fired. " + DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("GotoTabbedPage fired. " + DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
+			BlankApp1.App.StartTime = System.DateTime.Now;
 
 			await NavigationService.NavigateAsync(nameof(PrismTabbedPage1));
 		}

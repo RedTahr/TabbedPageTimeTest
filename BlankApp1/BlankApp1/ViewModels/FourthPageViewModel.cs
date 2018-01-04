@@ -10,7 +10,7 @@ namespace BlankApp1.ViewModels
 	{
         public FourthPageViewModel()
         {
-			System.Diagnostics.Debug.Write("FourthPageViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("FourthPageViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
         }
 	}
 }

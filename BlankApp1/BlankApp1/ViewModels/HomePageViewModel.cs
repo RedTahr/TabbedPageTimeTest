@@ -10,7 +10,7 @@ namespace BlankApp1.ViewModels
 	{
         public HomePageViewModel()
         {
-			System.Diagnostics.Debug.Write("HomePageViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("HomePageViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
 
 		}
 	}

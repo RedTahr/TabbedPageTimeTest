@@ -7,7 +7,7 @@ namespace BlankApp1.Views
         public FourthPage()
         {
             InitializeComponent();
-			System.Diagnostics.Debug.Write("FourthPageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("FourthPageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine + System.Environment.NewLine);
 		}
 	}
 }

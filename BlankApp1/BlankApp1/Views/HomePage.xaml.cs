@@ -7,7 +7,7 @@ namespace BlankApp1.Views
         public HomePage()
         {
             InitializeComponent();
-			System.Diagnostics.Debug.Write("HomePageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("HomePageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
 		}
 	}
 }

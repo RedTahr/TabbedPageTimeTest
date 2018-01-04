@@ -4,5 +4,5 @@
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="BlankApp1.Views.FourthPage">
-  
+    <Label Text="Whose on Fourth base"/>
 </ContentPage>

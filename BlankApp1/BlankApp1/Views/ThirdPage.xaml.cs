@@ -7,7 +7,7 @@ namespace BlankApp1.Views
         public ThirdPage()
         {
             InitializeComponent();
-			System.Diagnostics.Debug.Write("ThirdPageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("ThirdPageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
 		}
 	}
 }

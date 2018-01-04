@@ -7,7 +7,7 @@ namespace BlankApp1.Views
         public MenuPage()
         {
             InitializeComponent();
-			System.Diagnostics.Debug.Write("MenuPageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("MenuPageView Constructor. " + System.DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
 		}
 	}
 }

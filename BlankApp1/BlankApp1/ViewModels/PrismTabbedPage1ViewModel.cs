@@ -10,7 +10,7 @@ namespace BlankApp1.ViewModels
 	{
         public PrismTabbedPage1ViewModel()
         {
-			System.Diagnostics.Debug.Write("PrismTabbedPage1ViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff"));
+			System.Diagnostics.Debug.Write("PrismTabbedPage1ViewModel Constructor. " + DateTime.Now.ToString("hh:mm.ss.fff") + System.Environment.NewLine);
 
 		}
 	}
